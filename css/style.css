@@ -44,23 +44,20 @@ nav ul li:hover {
 
 main {
   margin-top: 10px;
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
+  gap: 20px;
   border: 1px solid red;
 }
 
-/* article {
-  width: 100%;
-  border: 1px solid violet;
-  height: 100px;
-} */
 .aside {
   text-align: center;
   width: 20%;
   border: 1px solid black;
-  height: 500px;
+  height: 400px;
   display: flex;
   align-items: center;
   background-color: purple;
@@ -76,8 +73,9 @@ main {
   background-color: #eca023;
   display: flex;
   align-items: center;
-  height: 200px;
-  gap: 2%;
+  height: 400px;
+  justify-content: center;
+  gap: 20px;
 }
 .noticias {
   text-align: center;
@@ -85,7 +83,7 @@ main {
   align-items: center;
   width: 100%;
   border: 1px solid white;
-  height: 100px;
+  height: 300px;
 }
 
 .noticias p {
@@ -94,7 +92,7 @@ main {
 
 .musica {
   width: 100%;
-  height: 100px;
+  height: 300px;
   border: 1px solid white;
   display: flex;
 
@@ -107,7 +105,7 @@ main {
 
 .eventos {
   width: 100%;
-  height: 100px;
+  height: 300px;
   border: 1px solid white;
   display: flex;
   align-items: center;
