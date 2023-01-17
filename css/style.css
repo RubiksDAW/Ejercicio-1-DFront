@@ -1,0 +1,123 @@
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+}
+
+header h1 {
+  display: inline-block;
+}
+
+nav {
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 90px;
+  display: inline-block;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #eca023;
+}
+
+main {
+  margin-top: 10px;
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+/* article {
+  width: 100%;
+  border: 1px solid violet;
+  height: 100px;
+} */
+.aside {
+  text-align: center;
+  width: 20%;
+  border: 1px solid black;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-color: purple;
+}
+
+.aside p {
+  width: 100%;
+}
+
+.articulos {
+  width: 100%;
+  text-align: center;
+  background-color: #eca023;
+}
+.noticias {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid white;
+  height: 100px;
+}
+
+.noticias p {
+  width: 100%;
+}
+
+.musica {
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+
+  align-items: center;
+}
+
+.musica p {
+  width: 100%;
+}
+
+.eventos {
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.eventos p {
+  width: 100%;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  height: 50px;
+  background-color: aqua;
+
+  padding-top: 20px;
+}
