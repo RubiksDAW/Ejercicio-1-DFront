@@ -73,6 +73,15 @@ main {
   width: 100%;
 }
 
+. aside ul li {
+  display: block;
+  margin: 0 auto;
+}
+.aside ul li a {
+  width: 80%;
+  height: ;
+}
+
 .articulos {
   width: 100%;
   text-align: center;
