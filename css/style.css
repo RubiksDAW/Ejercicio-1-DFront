@@ -1,5 +1,6 @@
 header {
-  background-color: black;
+  
+  background: rgba(184,223,168);
   color: white;
   text-align: center;
   width: 100%;
@@ -14,7 +15,7 @@ header h1 {
 
 nav {
   margin-top: 20px;
-  background: rgba(0, 0, 0, 0.7);
+  background-color: rgb(191,241,203);
   width: 100%;
   height: 90px;
   display: inline-block;
@@ -24,11 +25,11 @@ nav {
 nav ul {
   list-style: none;
   overflow: hidden;
-  display: inline-block;
+  
 }
 
 nav ul li {
-  float: left;
+  display: inline-block;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
@@ -42,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background: #eca023;
+  background: rgba(44,187,145);
 }
 
 main {
@@ -51,15 +52,15 @@ main {
   height: 600px;
   display: flex;
   gap: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .menu {
   text-align: center;
   width: 20%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 600px;
-  background-color: purple;
+  background-color: rgb(237,157,60);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: block;
@@ -69,7 +70,7 @@ main {
   width: 60%;
   height: 600px;
   list-style: none;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   /* text-align: center; */
   margin: 0 auto;
   margin-left: 0px;
@@ -81,13 +82,14 @@ main {
 }
 
 .menu ul li {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   align-items: center;
 }
 
 .menu ul li a {
   width: 100%;
+  /* height: 20px; */
   border: 1px solid white;
   text-decoration: none;
   color: white;
@@ -97,7 +99,7 @@ main {
 .articulos {
   width: 100%;
   text-align: center;
-  background-color: #eca023;
+  background-color: rgb(242,226,200);
   display: flex;
   align-items: center;
   height: 600px;
@@ -106,6 +108,7 @@ main {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-top: 2;
+  color: white;
 }
 .noticias {
   text-align: center;
@@ -151,8 +154,9 @@ footer {
   margin-top: 20px;
   text-align: center;
   height: 50px;
-  background-color: orangered;
+  background-color: rgb(51,45,23);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-top: 20px;
+  color: white;
 }
